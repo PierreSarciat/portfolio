@@ -9,12 +9,10 @@ function App() {
 
   return (
     <div className='App'>
-      <div className='home-background'>
-        <Header />
-        <main>
-          <Outlet />
-        </main>
-      </div>
+      <Header />
+      <main>
+        <Outlet />
+      </main>
       <Footer />
     </div >
   );
