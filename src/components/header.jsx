@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <NavLink to="" >
-        Pierre-Henri Sarciat
+
       </NavLink>
       <nav>
         <ul>

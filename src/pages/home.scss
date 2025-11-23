@@ -1,0 +1,26 @@
+@use "@styles/variable.scss" as *;
+
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $titlecolor;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+
+
+    .buttonMC,
+    .buttonMCV {
+        padding: 10px 30px;
+        border: 1px solid $maincolor;
+        border-radius: 50px;
+        color: $titlecolor;
+        background-color: $maincolor;
+        text-decoration: none;
+    }
+}

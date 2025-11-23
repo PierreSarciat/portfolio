@@ -1,20 +1,22 @@
 import './App.scss';
 import { Outlet } from "react-router-dom";
-/*import Header from '@components/header.jsx';*/
+import Header from '@components/header.jsx';
 import Footer from '@components/footer.jsx';
-import Header from './components/header';
- 
+
+
 
 function App() {
-  
+
   return (
     <div className='App'>
-      <Header />
-      <main>
-        <Outlet />       
-      </main>
-     <Footer />         
-    </div>
+      <div className='home-background'>
+        <Header />
+        <main>
+          <Outlet />
+        </main>
+      </div>
+      <Footer />
+    </div >
   );
 }
 

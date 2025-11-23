@@ -1,13 +1,18 @@
 import React from 'react';
-/*import"./home.scss";*/
+import "./home.scss";
 
-const Home= () => {
-    console.log("➡️ Home rendu");
+const Home = () => {
     return (
         <>
-        <h1>Présentation</h1>
-        
-     
+            <div className='homeContent'>
+                <h1>Pierre-Henri Sarciat - Développeur web</h1>
+                <div className='buttons'>
+                    <a href="" className='buttonMC' title="Me contacter">Me contacter</a>
+                    <a href="" className='buttonMCV' title="Mon CV">Mon CV</a>
+                </div>
+            </div>
+
+
         </>
     );
 };
