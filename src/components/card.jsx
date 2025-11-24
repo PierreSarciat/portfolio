@@ -1,9 +1,12 @@
 import React from "react";
 import './card.scss';
+import { Link } from 'react-router-dom';
+
+
 
 const Card = ({ img, title, description, link, alt }) => {
     return (
-        <a href={link} target="_blank" rel="noopener noreferrer">
+        <Link to={link} >
             <div className="card">
                 <img src={img} alt={alt} />
                 <div className="card-overlay">
@@ -13,7 +16,7 @@ const Card = ({ img, title, description, link, alt }) => {
                     </div>
                 </div>
             </div>
-        </a>
+        </Link>
     );
 };
 
