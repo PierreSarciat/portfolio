@@ -1,11 +1,23 @@
 @use "@styles/variable.scss" as *;
 
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
   padding: 20px;
   box-sizing: border-box;
   max-width: 1280px;
   color: $maincolor;
-  
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: transparent;
+
+  &.scrolled {
+    background-color: rgba(3, 80, 88, 0.707); // blanc semi-transparent
+    backdrop-filter: blur(6px); // effet verre dépoli (optionnel)
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); // petite ombre
+    color: beige;
+  }
 
   ul {
     display: flex;
@@ -28,8 +40,8 @@ header {
       }
 
       &.active {
-        text-decoration: underline; 
-        
+        text-decoration: underline;
+
       }
     }
   }

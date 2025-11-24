@@ -9,12 +9,12 @@ import kasaImg from '@images/kasa.webp';
 import menu_makerImg from '@images/menu_maker.webp';
 
 const projects = [
-    { img: bookiImg, title: "BOOKI", description: " location", alt: "Projet Booki", link: "#" },
-    { img: bluelImg, title: "SOPHIE BLUEL", alt: "Projet Sophie Bluel", link: "#" },
-    { img: carducciImg, title: "NINA CARDUCCI", alt: "Projet Nina Carducci", link: "#" },
-    { img: grimoireImg, title: "MON VIEUX GRIMOIRE", alt: "Projet Mon Vieux Grimoire", link: "#" },
-    { img: kasaImg, title: "KASA", alt: "Projet Kasa", link: "#" },
-    { img: menu_makerImg, title: "MENU MAKER", alt: "Projet Menu Maker", link: "#" },
+    { img: bookiImg, title: "BOOKI", description: " location", alt: "Projet Booki", link: "/booki" },
+    { img: bluelImg, title: "SOPHIE BLUEL", alt: "Projet Sophie Bluel", link: "/bluel" },
+    { img: carducciImg, title: "NINA CARDUCCI", alt: "Projet Nina Carducci", link: "/carducci" },
+    { img: grimoireImg, title: "MON VIEUX GRIMOIRE", alt: "Projet Mon Vieux Grimoire", link: "/grimoire" },
+    { img: kasaImg, title: "KASA", alt: "Projet Kasa", link: "/kasa" },
+    { img: menu_makerImg, title: "MENU MAKER", alt: "Projet Menu Maker", link: "/maker" },
 ];
 
 

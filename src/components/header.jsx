@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import './header.scss'
 import { NavLink } from "react-router-dom";
 
 
 const Header = () => {
-  return (
-    <header>
-      <NavLink to="" >
+  const [scrolled, setScrolled] = useState(false);
 
-      </NavLink>
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50); // seuil du scroll
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return (
+    <header className={`header ${scrolled ? "scrolled" : ""}`}>
       <nav>
         <ul>
           <li>
@@ -38,10 +46,6 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-
-
-
-
     </header>
   );
 };

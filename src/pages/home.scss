@@ -61,6 +61,11 @@
   }
 }
 
+.project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .projectList {
   display: grid;
   grid-template-columns: 33% 33% 33%;
