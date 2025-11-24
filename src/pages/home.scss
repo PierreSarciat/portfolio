@@ -1,40 +1,71 @@
 @use "@styles/variable.scss" as *;
 
 .homeContent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: $maincolor;
-    font-size: 17px;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  font-size: 17px;
+  align-items: center;
+line-height: 1.6;
 
 }
 
 .buttons {
-    display: flex;
-    margin: 40px;
-    justify-content: center;
-    gap: 50px;
-    padding: 30px;
+  display: flex;
+  margin: 40px;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
 
 
 
-    .buttonMC,
-    .buttonMCV {
-        padding: 10px 30px;
-        border: 1px solid $maincolor;
-        border-radius: 50px;
-        color: $titlecolor;
-        background-color: $maincolor;
-        text-decoration: none;
-    }
+  .buttonMC,
+  .buttonMCV {
+    padding: 10px 30px;
+    border: 1px solid $maincolor;
+    border-radius: 50px;
+    color: $titlecolor;
+    background-color: $maincolor;
+    text-decoration: none;
+  }
 }
 
 .about {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  
 }
+
+.skillsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+
+
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .skillsList {
+      display: flex;
+      flex-direction: column;
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+       
+      }
+
+
+    }
+  }
+}
+
 
 /*.home-background::before {
   content: "";
