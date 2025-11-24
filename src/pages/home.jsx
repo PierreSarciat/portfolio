@@ -21,7 +21,7 @@ const projects = [
 const Home = () => {
     return (
 
-        <div className='homeContent'>
+        <div className='homeContent' id="presentation">
 
             <h1>Pierre-Henri Sarciat - Développeur web</h1>
             <div className='buttons'>
@@ -35,7 +35,7 @@ const Home = () => {
                     Que ce soit pour améliorer une application en place ou développer de nouvelles fonctionnalités, je suis à votre disposition pour vous proposer des solutions techniques adaptées.<br /></p>
                 <p></p>
             </section>
-            <section className='skillsContent'>
+            <section className='skillsContent' id="competences">
                 <h2>Mes compétences</h2>
                 <section className='skills'>
                     <div className='skillsList'>
@@ -63,7 +63,7 @@ const Home = () => {
                     </div>
                 </section>
             </section>
-            <section className='project'>
+            <section className='project' id="portfolio">
                 <h2>Mes Projets</h2>
                 <div className='projectList'>
 

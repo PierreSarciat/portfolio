@@ -1,9 +1,21 @@
 import React, { useState, useEffect } from "react";
 import './header.scss'
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 
 const Header = () => {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -20,17 +32,17 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to="">
+            <NavLink to="/#presentation">
               Présentation
             </NavLink>
           </li>
           <li>
-            <NavLink to="">
+            <NavLink to="/#competences">
               Compétences
             </NavLink>
           </li>
           <li>
-            <NavLink to="">
+            <NavLink to="/#portfolio">
               Portfolio
             </NavLink>
           </li>
