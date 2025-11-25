@@ -7,9 +7,10 @@ import carducciImg from '@images/carducci.webp';
 import grimoireImg from '@images/grimoire.webp';
 import kasaImg from '@images/kasa.webp';
 import menu_makerImg from '@images/menu_maker.webp';
+import Button from "@components/button.jsx";
 
 const projects = [
-    { img: bookiImg, title: "BOOKI", description: " location", alt: "Projet Booki", link: "/booki" },
+    { img: bookiImg, title: "BOOKI", description: " Création de la page d'accueil d'une agence de voyage", alt: "Projet Booki", link: "/booki" },
     { img: bluelImg, title: "SOPHIE BLUEL", alt: "Projet Sophie Bluel", link: "/bluel" },
     { img: carducciImg, title: "NINA CARDUCCI", alt: "Projet Nina Carducci", link: "/carducci" },
     { img: grimoireImg, title: "MON VIEUX GRIMOIRE", alt: "Projet Mon Vieux Grimoire", link: "/grimoire" },
@@ -25,8 +26,8 @@ const Home = () => {
 
             <h1>Pierre-Henri Sarciat - Développeur web</h1>
             <div className='buttons'>
-                <a href="" className='buttonMC' title="Me contacter">Me contacter</a>
-                <a href="" className='buttonMCV' title="Mon CV">Mon CV</a>
+                <Button text="Me contacter" href="#contact" />
+                <Button text="Mon CV" href="/cv.pdf" />
             </div>
             <section className='about'>
                 <p></p>
