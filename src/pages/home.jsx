@@ -22,18 +22,18 @@ const projects = [
 const Home = () => {
     return (
 
-        <div className='homeContent' id="presentation">
+        <div className='homeContent'>
+            <section className="presentation" id="presentation">
 
-            <h1>Pierre-Henri Sarciat - Développeur web</h1>
-            <div className='buttons'>
-                <Button text="Me contacter" href="#contact" />
-                <Button text="Mon CV" href="/cv.pdf" />
-            </div>
+                <h1>Pierre-Henri Sarciat - Développeur web</h1>
+                <div className='buttons'>
+                    <Button text="Me contacter" href="#contact" />
+                    <Button text="Mon CV" href="/cv.pdf" />
+                </div>
+            </section>
             <section className='about'>
                 <p></p>
-                <p>Développeur fullstack spécialisé dans le backend (PHP, Symfony, Node.js) et la maintenance d’applications web.<br /><br />
-                    J’interviens pour corriger les bugs, refactoriser du code legacy et faire évoluer des systèmes existants.<br /><br />
-                    Que ce soit pour améliorer une application en place ou développer de nouvelles fonctionnalités, je suis à votre disposition pour vous proposer des solutions techniques adaptées.<br /></p>
+                <p>Développeur Full-Stack, je crée des interfaces performantes avec React et Sass, et développe des API fiables avec Node.js, Express et MongoDB.<br /><br /> Mon objectif est de livrer des applications complètes, optimisées et accessibles, offrant une expérience utilisateur fluide sur tous les supports."</p>
                 <p></p>
             </section>
             <section className='skillsContent' id="competences">
@@ -78,6 +78,17 @@ const Home = () => {
                         />
                     ))}
                 </div>
+            </section>
+            <section className='aboutMe' id="aboutMe">
+                <h2>A propos</h2>
+                <div className='textMe'>
+                    <p></p>
+                    <p>Issu du domaine paramédical, j’ai toujours travaillé dans des environnements où l’écoute, la rigueur et l’adaptabilité sont essentielles. En pleine réflexion sur mon avenir professionnel, j’ai ressenti le besoin d’entamer une reconversion vers un métier qui allie créativité, logique et construction.
+                        C’est au cours de mes recherches que j’ai découvert la formation OpenClassrooms, et j’ai réalisé que le développement web réunissait exactement ce que je recherchais : un secteur dynamique, des projets concrets, la possibilité d’apprendre en continu et surtout la satisfaction de créer des solutions utiles.
+                        Cette transition me permet aujourd’hui de mettre à profit ma méthodologie, ma capacité à résoudre des problèmes et ma volonté d’aider, tout en développant de nouvelles compétences techniques.<br /></p>
+                    <p></p>
+                </div>
+
             </section>
         </div>
     );

@@ -1,79 +1,105 @@
 @use "@styles/variable.scss" as *;
 
 .homeContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: black;
   font-size: 17px;
-  align-items: center;
   line-height: 1.6;
-}
+  color: black;
 
-.buttons {
-  display: flex;
-  margin: 40px;
-  justify-content: center;
-  gap: 50px;
-  padding: 30px;
-
-
-
-  .buttonMC,
-  .buttonMCV {
-    padding: 10px 30px;
-    border: 1px solid $maincolor;
-    border-radius: 50px;
-    color: $titlecolor;
-    background-color: $maincolor;
-    text-decoration: none;
+  .presentation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
   }
-}
-
-.about {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-}
-
-.skillsContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
 
 
-  .skills {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-
-    .skillsList {
-      display: flex;
-      flex-direction: column;
-
-      ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
+  .buttons {
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
 
 
+
+    .buttonMC,
+    .buttonMCV {
+      padding: 10px 30px;
+      border: 1px solid $maincolor;
+      border-radius: 50px;
+      color: $titlecolor;
+      background-color: $maincolor;
+      text-decoration: none;
     }
   }
-}
 
-.project{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.projectList {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+    margin-top: 50px;
+  }
 
-  
+  .skillsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+
+    .skills {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      gap: 10px;
+
+      .skillsList {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #3191c0;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+
+
+      }
+    }
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectList {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .textMe {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+    }
+
+  }
+
 }
 
 
