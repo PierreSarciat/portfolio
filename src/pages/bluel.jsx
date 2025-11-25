@@ -24,6 +24,7 @@ const Bluel = () => {
                     <ul>
                         <li>Site dynamique</li>
                         <li>Evénements JS</li>
+                        <li>Formulaires interactifs</li>
                     </ul>
                 </div>
 
