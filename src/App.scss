@@ -2,8 +2,16 @@ html,
 body,
 #root,
 main {
-  /*max-width: 1240px;*/
+  max-width: 1240px;
   margin: 0 auto;
+}
+
+#presentation,
+#competences,
+#portfolio,
+#apropos,
+#contact {
+  scroll-margin-top: 120px; 
 }
 
 
