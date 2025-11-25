@@ -9,8 +9,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-bottom: 2px solid blue;
-    border-top: 2px solid blue;
+    border-radius: 50px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #c6e5ee24;
   }
 
 
@@ -84,6 +86,9 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 
 
   }
@@ -92,10 +97,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
     .textMe {
       display: grid;
       grid-template-columns: 1fr 2fr 1fr;
+      ;
+    }
+
+    .text {
+      padding: 20px;
+      border: 1px solid #85cdf187;
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+
     }
 
   }

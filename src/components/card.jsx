@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 
-const Card = ({ img, title, description, link, alt }) => {
+const Card = ({ img, title, link, alt }) => {
     return (
         <Link to={link} >
             <div className="card">
@@ -12,7 +12,6 @@ const Card = ({ img, title, description, link, alt }) => {
                 <div className="card-overlay">
                     <div className="card-text">
                         <h3>{title}</h3>
-                        <p>{description}</p>
                     </div>
                 </div>
             </div>
