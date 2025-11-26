@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from "@components/button.jsx";
+import "./pages.scss";
 import "./maker.scss";
 
 const Maker = () => {
@@ -26,7 +27,7 @@ const Maker = () => {
                     </ul>
                 </div>
             </section>
-            <div className='buttons'>
+            <div className='buttonMaker'>
                 <Button text="Rapport des spécifications techniques" href="public/mockup/maker/speTechniques.pdf" target="_blank" rel="noopener noreferrer" />
             </div>
         </div>

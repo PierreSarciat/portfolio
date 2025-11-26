@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from "@components/button.jsx";
+import "./pages.scss";
 import "./booki.scss";
 import logoGitHub from "@images/logoGitHub.png";
 
@@ -29,7 +30,7 @@ const Booki = () => {
                 </div>
 
             </section>
-            <div className='buttons'>
+            <div className='buttonBooki'>
                 <Button img={logoGitHub} alt="GitHub" href="https://github.com/PierreSarciat/Booki/tree/projet-definitif" target="_blank" rel="noopener noreferrer" />
                 <Button text="Mon CV" href="/cv.pdf" />
             </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from "@components/button.jsx";
+import "./pages.scss";
 import "./carducci.scss";
 import logoGitHub from "@images/logoGitHub.png";
 
@@ -28,7 +29,7 @@ const Booki = () => {
                 </div>
 
             </section>
-            <div className='buttons'>
+            <div className='buttonCarducci'>
                 <Button img={logoGitHub} alt="GitHub" href="https://github.com/PierreSarciat/ninacarducci.git" target="_blank" rel="noopener noreferrer" />
                 <Button text="Rapport d' optimisation" href="public/mockup/carducci/auditSEO.pdf" target="_blank" rel="noopener noreferrer" />
             </div>

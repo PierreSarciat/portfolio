@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from "@components/button.jsx";
-import "./grimoire.scss";
+import "./pages.scss";
+import "./grimoire.scss"
 import logoGitHub from "@images/logoGitHub.png";
 
 const Grimoire = () => {
@@ -29,7 +30,7 @@ const Grimoire = () => {
                 </div>
 
             </section>
-            <div className='buttons'>
+            <div className='buttonGrimoire'>
                 <Button img={logoGitHub} alt="GitHub" href="https://github.com/PierreSarciat/mon-vieux-grimoire.git" target="_blank" rel="noopener noreferrer" />
             </div>
         </div>

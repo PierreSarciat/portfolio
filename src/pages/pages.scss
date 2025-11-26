@@ -1,0 +1,49 @@
+.titleProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.mockupContent {
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #9199993d;
+
+    .mockup {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 10px;
+        margin: 10px;
+
+        img {
+            width: 100%;
+            box-shadow: 0 -3px 15px rgba(65, 56, 176, 0.75);
+
+        }
+
+    }
+
+    .mockupProject {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 4rem;
+        }
+
+        li {
+            border-radius: 50px;
+            padding: 10px 30px;
+            border: 1px solid rgba(14, 31, 124, 0.4509803922);
+        }
+
+
+    }
+
+}

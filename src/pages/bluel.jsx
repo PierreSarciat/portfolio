@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from "@components/button.jsx";
 import logoGitHub from "@images/logoGitHub.png";
+import "./pages.scss";
 import "./bluel.scss";
 
 const Bluel = () => {
@@ -29,7 +30,7 @@ const Bluel = () => {
                 </div>
 
             </section>
-            <div className='buttons'>
+            <div className='buttonBluel'>
                 <Button img={logoGitHub} alt="GitHub" href="https://github.com/PierreSarciat/projet3.git" target="_blank" rel="noopener noreferrer" />
             </div>
         </div>

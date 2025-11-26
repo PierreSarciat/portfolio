@@ -16,23 +16,13 @@
   }
 
 
-  .buttons {
+  .buttonHome {
     display: flex;
     margin: 40px;
     justify-content: center;
     gap: 50px;
-    padding: 30px;
-
-
-
-    .buttonMC,
-    .buttonMCV {
-      padding: 10px 30px;
-      border: 1px solid $maincolor;
-      border-radius: 50px;
-      color: $titlecolor;
-      background-color: $maincolor;
-      text-decoration: none;
+    padding: 30px;  
+          
     }
   }
 
@@ -115,26 +105,7 @@
 
   }
 
-}
 
 
 
-/*.home-background::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
 
-  background: url('@images/imageFond.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(12, 16, 11, 0.7);
-  background-blend-mode: darken;
-
-}
-
-
-.home-background>* {
-  position: relative;
-  z-index: 1;
-}*/

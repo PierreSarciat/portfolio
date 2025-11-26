@@ -26,7 +26,7 @@ const Home = () => {
             <section className="presentation" id="presentation">
 
                 <h1>Pierre-Henri Sarciat - Développeur web</h1>
-                <div className='buttons'>
+                <div className='buttonHome'>
                     <Button text="Me contacter" href="#contact" />
                     <Button text="Mon CV" href="/cv.pdf" />
                 </div>

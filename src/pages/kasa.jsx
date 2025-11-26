@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from "@components/button.jsx";
-import "./kasa.scss";
+import "./pages.scss";
+import "./kasa.scss"
 import logoGitHub from "@images/logoGitHub.png";
 
 
@@ -30,9 +31,9 @@ const Kasa = () => {
                 </div>
 
             </section>
-            <div className='buttons'>
+            <div className='buttonKasa'>
                 <Button img={logoGitHub} alt="GitHub" href="https://github.com/PierreSarciat/Kasa-immobilier.git" target="_blank" rel="noopener noreferrer" />
-                <Button text="Mon CV" href="/cv.pdf" />
+                <Button text="URL" href="/cv.pdf" />
             </div>
         </div>
     );
