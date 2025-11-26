@@ -25,10 +25,10 @@ const Home = () => {
         <div className='homeContent'>
             <section className="presentation" id="presentation">
 
-                <h1>Pierre-Henri Sarciat - Développeur web</h1>
+                <h1 className="title"><div className='p'>Pierre-Henri Sarciat </div><div className='q'><span className='highlight'>{"<"}</span> Développeur web <span className='highlight'>{"/>"}</span> </div></h1>
                 <div className='buttonHome'>
                     <Button text="Me contacter" href="#contact" />
-                    <Button text="Mon CV" href="/cv.pdf" />
+                    <Button id="CV" text="Mon CV" href="/cv.pdf" />
                 </div>
             </section>
             <section className='about'>
