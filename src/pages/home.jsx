@@ -73,7 +73,7 @@ const Home = () => {
                             key={index}
                             img={proj.img}
                             title={proj.title}
-                            description={proj.description}
+                            alt={proj.alt}
                             link={proj.link}
                         />
                     ))}
