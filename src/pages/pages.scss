@@ -4,6 +4,7 @@
     align-items: center;
     margin-top: 20px;
     margin-bottom: 40px;
+    padding-top: 30px;
 }
 
 .mockupContent {
@@ -42,9 +43,24 @@
             border-radius: 50px;
             padding: 10px 30px;
             border: 1px solid rgba(14, 31, 124, 0.4509803922);
+            text-align: center;
         }
 
 
     }
+
+}
+
+@media (max-width: 750px) {
+
+
+.mockupContent {
+  .mockup,
+  .mockupProject ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 
 }
