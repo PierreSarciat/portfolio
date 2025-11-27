@@ -3,7 +3,7 @@
 header {
   position: fixed;
   top: 0;
-  left:0;
+  left: 0;
   width: 100%;
   z-index: 1000;
   padding: 20px;
@@ -19,13 +19,15 @@ header {
     /*color: beige;*/
   }
 
-  
+
 
   ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     gap: 2.5em;
     list-style: none;
+    padding-right: 20px;
   }
 
   li {
@@ -34,27 +36,27 @@ header {
       text-decoration: none;
       position: relative;
       font-size: 17px;
+      
 
       &:hover,
       &:focus,
       &:active {
-        color: inherit;
+        color: rgba(14, 31, 124, 0.4509803922);;
       }
 
-      &.active {
-        text-decoration: underline;
 
-      }
+
     }
   }
 
 }
 
-@media (max-width:480px) {
 
-  header ul {
-    font-size: 12px;
-    text-transform: uppercase;
-    gap: 1em;
-  }
+@media (max-width: 600px) {
+
+header li a {
+  
+  font-size: 14px;
+}
+
 }
