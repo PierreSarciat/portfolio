@@ -28,7 +28,7 @@ const Home = () => {
                 <h1 className="title"><div className='p'>Pierre-Henri Sarciat </div><div className='q'><span className='highlight'>{"<"}</span> Développeur web <span className='highlight'>{"/>"}</span> </div></h1>
                 <div className='buttonHome'>
                     <Button text="Me contacter" href="#contact" />
-                    <Button id="CV" text="Mon CV" href="/cv.pdf" />
+                    < Button id="CV" text="Mon CV" href={`${import.meta.env.BASE_URL}cv-pierre.html`} target="_blank" rel="noopener noreferrer" />
                 </div>
             </section>
             <section className='about'>
