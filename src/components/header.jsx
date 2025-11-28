@@ -6,6 +6,7 @@ import { NavLink, useLocation } from "react-router-dom";
 const Header = () => {
 
   const location = useLocation();
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     if (location.hash) {
@@ -16,11 +17,11 @@ const Header = () => {
     }
   }, [location]);
 
-  const [scrolled, setScrolled] = useState(false);
+
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50); // seuil du scroll
+      setScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -52,7 +53,7 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="">
+            <NavLink to="/#contact">
               Contact
             </NavLink>
           </li>

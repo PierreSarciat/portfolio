@@ -11,7 +11,7 @@ const Footer = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to=""> <img src={Facebook} alt="logo facebook" className="footer-logo" /></NavLink>
+            <NavLink to="" id="contact"> <img src={Facebook} alt="logo facebook" className="footer-logo" /></NavLink>
           </li>
           <li>
             <NavLink to=""> <img src={Instagram} alt="logo instagram" className="footer-logo" /></NavLink>
