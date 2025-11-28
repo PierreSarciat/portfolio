@@ -3,6 +3,7 @@ import Button from "@components/button.jsx";
 import "./pages.scss";
 import "./carducci.scss";
 import logoGitHub from "@images/logoGitHub.png";
+import logolighthouse from "@images/logolighthouse.png";
 
 
 const Booki = () => {
@@ -10,6 +11,9 @@ const Booki = () => {
         <div>
             <section className='titleProject'>
                 <h1>Nina Carducci</h1>
+                <div className='logo'>
+                    <img src={logolighthouse} alt="lighthouse" />
+                </div>
                 <p>Débugger et optimiser un site de photographe</p>
             </section>
 

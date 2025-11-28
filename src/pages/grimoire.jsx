@@ -3,12 +3,20 @@ import Button from "@components/button.jsx";
 import "./pages.scss";
 import "./grimoire.scss"
 import logoGitHub from "@images/logoGitHub.png";
+import logoreact from "@images/logoreact.png";
+import logoJS from "@images/logoJS.png";
+import logomongodb from "@images/logomongodb.png";
 
 const Grimoire = () => {
     return (
         <div>
             <section className='titleProject'>
                 <h1>Mon Vieux Grimoire</h1>
+                <div className='logo'>
+                    <img src={logoreact} alt="react" />
+                    <img src={logoJS} alt="JS" />
+                    <img src={logomongodb} alt="react" />
+                </div>
                 <p>Création du back-end d' un site de notation de livres</p>
             </section>
 

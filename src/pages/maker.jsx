@@ -2,12 +2,16 @@ import React from 'react';
 import Button from "@components/button.jsx";
 import "./pages.scss";
 import "./maker.scss";
+import logokanban from "@images/logokanban.jpg";
 
 const Maker = () => {
     return (
         <div>
             <section className='titleProject'>
                 <h1>Menu Maker</h1>
+                <div className='logo'>
+                    <img src={logokanban} alt="kanban" />
+                </div>
                 <p>Plannifier le développement du site d' un client</p>
             </section>
 

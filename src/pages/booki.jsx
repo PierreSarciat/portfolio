@@ -3,6 +3,8 @@ import Button from "@components/button.jsx";
 import "./pages.scss";
 import "./booki.scss";
 import logoGitHub from "@images/logoGitHub.png";
+import logohtml from "@images/logohtml.png";
+import logocss from "@images/logocss.png";
 
 
 const Booki = () => {
@@ -10,6 +12,10 @@ const Booki = () => {
         <div>
             <section className='titleProject'>
                 <h1>Booki</h1>
+                <div className='logo'>
+                    <img src={logohtml} alt="html" />
+                    <img src={logocss} alt="css" />
+                </div>
                 <p>Création de  la page d'accueil d'une agence de voyage</p>
             </section>
 
