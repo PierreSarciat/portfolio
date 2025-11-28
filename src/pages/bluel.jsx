@@ -3,6 +3,10 @@ import Button from "@components/button.jsx";
 import logoGitHub from "@images/logoGitHub.png";
 import "./pages.scss";
 import "./bluel.scss";
+import logohtml from "@images/logohtml.png";
+import logocss from "@images/logocss.png";
+import logoJS from "@images/logoJS.png";
+import logomongodb from "@images/logomongodb.png";
 
 
 const Bluel = () => {
@@ -10,6 +14,12 @@ const Bluel = () => {
         <div>
             <section className='titleProject'>
                 <h1>Sophie Bluel</h1>
+                <div className='logo'>
+                    <img src={logohtml} alt="html" />
+                    <img src={logocss} alt="css" />
+                    <img src={logomongodb} alt="react" />
+                    <img src={logoJS} alt="JS" />
+                </div>
                 <p>Création d' une page web dynamique avec JavaScript</p>
             </section>
 
