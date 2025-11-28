@@ -30,40 +30,41 @@ const Header = () => {
 
   return (
     <header className={`header ${scrolled ? "scrolled" : ""}`}>
-      <nav>
-        <ul>
-          <li>
-            <NavLink to="/#presentation">
-              Présentation
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/#competences">
-              Compétences
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/#portfolio">
-              Portfolio
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/#aboutMe">
-              A propos
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/#contact">
-              Contact
-            </NavLink>
-          </li>
-        </ul>
-      </nav>
+      <div className="header-container">
+        <nav>
+          <ul>
+            <li>
+              <NavLink to="/#presentation">
+                Présentation
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/#competences">
+                Compétences
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/#portfolio">
+                Portfolio
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/#aboutMe">
+                A propos
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/#contact">
+                Contact
+              </NavLink>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 };
 
 export default Header
-
 
 
