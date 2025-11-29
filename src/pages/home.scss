@@ -8,10 +8,11 @@
   .title {
     display: flex;
     gap: 1rem;
+    color: #bad3df;
   }
 
   .highlight {
-    color: #0028ff8a;
+    color: rgba(236, 237, 243, 0.54);
     font-weight: 900;
   }
 
@@ -22,7 +23,6 @@
     border-radius: 50px;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    background-color: #c6e5ee24;
   }
 
 
@@ -35,7 +35,7 @@
 
   }
 
-  #CV {}
+  
 }
 
 .about {

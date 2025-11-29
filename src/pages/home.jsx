@@ -8,6 +8,7 @@ import grimoireImg from '@images/grimoire.webp';
 import kasaImg from '@images/kasa.webp';
 import menu_makerImg from '@images/menu_maker.webp';
 import Button from "@components/button.jsx";
+import imageFond from "@images/imageFond.webp"
 
 const projects = [
     { img: bookiImg, title: "BOOKI", alt: "Projet Booki", link: "/booki" },
@@ -23,7 +24,11 @@ const Home = () => {
     return (
 
         <div className='homeContent'>
-            <section className="presentation" id="presentation">
+            <section className="presentation" id="presentation" style={{
+                backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${imageFond})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+            }}>
 
                 <h1 className="title"><div className='p'>Pierre-Henri Sarciat </div><div className='q'><span className='highlight'>{"<"}</span> Développeur web <span className='highlight'>{"/>"}</span> </div></h1>
                 <div className='buttonHome'>
