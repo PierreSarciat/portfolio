@@ -22,14 +22,11 @@
 
   li {
     a {
+      display: flex;
+      align-items: center;
       color: white;
+      gap:5px;
 
-
-      &:hover,
-      &:focus,
-      &:active {
-        color: inherit;
-      }
 
       &.active {
         text-decoration: underline;
