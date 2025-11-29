@@ -83,7 +83,6 @@ const Kasa = () => {
             </section>
             <div className='buttonKasa'>
                 <Button img={logoGitHub} alt="GitHub" href="https://github.com/PierreSarciat/Kasa-immobilier.git" target="_blank" rel="noopener noreferrer" />
-                <Button text="URL" href="https://pierresarciat.github.io/Kasa-immobilier/" />
             </div>
         </div>
     );

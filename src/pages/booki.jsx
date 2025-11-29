@@ -38,7 +38,7 @@ const Booki = () => {
             </section>
             <div className='buttonBooki'>
                 <Button img={logoGitHub} alt="GitHub" href="https://github.com/PierreSarciat/Booki/tree/projet-definitif" target="_blank" rel="noopener noreferrer" />
-                <Button text="Mon CV" href="/cv.pdf" />
+                <Button text="URL" href="https://pierresarciat.github.io/Booki/" target="_blank" rel="noopener noreferrer" />
             </div>
         </div>
     );

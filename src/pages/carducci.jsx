@@ -35,7 +35,7 @@ const Booki = () => {
             </section>
             <div className='buttonCarducci'>
                 <Button img={logoGitHub} alt="GitHub" href="https://github.com/PierreSarciat/ninacarducci.git" target="_blank" rel="noopener noreferrer" />
-                <Button text="Rapport d' optimisation" href="public/mockup/carducci/auditSEO.pdf" target="_blank" rel="noopener noreferrer" />
+                <Button text="Rapport d' optimisation" href={`${import.meta.env.BASE_URL}auditSEO.html`} target="_blank" rel="noopener noreferrer" />
             </div>
         </div>
     );

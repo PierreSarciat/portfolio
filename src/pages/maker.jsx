@@ -32,7 +32,7 @@ const Maker = () => {
                 </div>
             </section>
             <div className='buttonMaker'>
-                <Button text="Rapport des spécifications techniques" href="public/mockup/maker/speTechniques.pdf" target="_blank" rel="noopener noreferrer" />
+                <Button text="Rapport des spécifications techniques" href={`${import.meta.env.BASE_URL}Spécifications-techniques.html`} target="_blank" rel="noopener noreferrer" />
             </div>
         </div>
     );

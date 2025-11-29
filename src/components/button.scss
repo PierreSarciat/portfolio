@@ -1,7 +1,7 @@
 @use "@styles/variable.scss" as *;
 
 .button {
-    display: inline-block;
+    display: flex;
     padding: 10px 30px;
     border: 1px solid $maincolor;
     border-radius: 50px;
@@ -10,6 +10,7 @@
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s ease;
+    align-items: center;
 
     &:hover {
         opacity: 0.8;
