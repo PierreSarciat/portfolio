@@ -73,10 +73,11 @@ const Bluel = () => {
                             <p></p>
                         </span>
 
-                        <li><Button text="Perspectives d' améliorations" /></li>
+                        <li><Button text="Perspectives de développement" /></li>
                         <span className='pGrid'>
                             <p></p>
-                            <p>Optimiser la synchronisation avec l’API, ajouter des animations pour les ajouts/suppressions et renforcer les validations de formulaire.</p>
+                            <p>Ajouter des animations lors de l’ajout ou suppression d’un média pour améliorer l’expérience utilisateur. Implémenter une pagination ou un lazy loading pour améliorer les performances en cas de nombreuses images.
+                                Améliorer l’accessibilité (contraste, navigation clavier, ARIA labels).</p>
                             <p></p>
                         </span>
                     </ul>

@@ -72,7 +72,7 @@ const Kasa = () => {
                             <p></p>
                         </span>
 
-                        <li><Button text="Perspectives d' améliorations" /></li>
+                        <li><Button text="Perspectives de développement" /></li>
                         <span className='pGrid'>
                             <p></p>
                             <p>Une future intégration avec un back-end Node.js permettra d’ajouter une API temps réel.</p>
