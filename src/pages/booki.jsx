@@ -20,25 +20,26 @@ const Booki = () => {
             </section>
 
             <section className='mockupContent'>
-                <div className='mockup'>
+                <div className='mockup' id="booki">
+                    <img src="" alt="" />
                     <img src="/portfolio/mockup/booki/booki1.png" alt="Mockup Booki" />
-                    <img src="/portfolio/mockup/booki/booki2.png" alt="Mockup Booki" />
-                    <img src="/portfolio/mockup/booki/booki3.png" alt="Mockup Booki" />
-                </div>
-                <div className='mockupProject'>
-                    <h2>Projet: </h2>
-                    <ul>
-                        <li>Intégration HTML/CSS</li>
-                        <li>Intégration à partir de Figma</li>
-                        <li>Site responsive</li>
-                        <li>Repo Git</li>
-                    </ul>
+                    <img src="" alt="" />
                 </div>
 
+
             </section>
+            <div className='mockupProject'>
+                <h2>Projet: </h2>
+                <ul>
+                    <li>Intégration HTML/CSS</li>
+                    <li>Intégration à partir de Figma</li>
+                    <li>Site responsive</li>
+                    <li>Repo Git</li>
+                </ul>
+            </div>
             <div className='buttonBooki'>
                 <Button img={logoGitHub} alt="GitHub" href="https://github.com/PierreSarciat/Booki/tree/projet-definitif" target="_blank" rel="noopener noreferrer" />
-                <Button text="URL" href="https://pierresarciat.github.io/Booki/" target="_blank" rel="noopener noreferrer" />
+                <Button text="Visiter le site" href="https://pierresarciat.github.io/Booki/" target="_blank" rel="noopener noreferrer" />
             </div>
         </div>
     );

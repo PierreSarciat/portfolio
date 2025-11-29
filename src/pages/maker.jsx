@@ -18,18 +18,20 @@ const Maker = () => {
             <section className='mockupContent'>
                 <div className='mockup'>
                     <img src="/portfolio/mockup/maker/maker1.png" alt="Mockup Menu Maker" />
-                    <img src="/portfolio/mockup/maker/maker2.png" alt="Mockup Menu Maker" />
-                    <img src="/portfolio/mockup/maker/maker3.png" alt="Mockup Menu Maker" />
+                    <div id="maker">
+                        <img src="/portfolio/mockup/maker/maker2.png" alt="Mockup Menu Maker" />
+                        <img src="/portfolio/mockup/maker/maker3.png" alt="Mockup Menu Maker" />
+                    </div>
                     <img src="/portfolio/mockup/maker/maker4.png" alt="Mockup Menu Maker" />
                 </div>
-                <div className='mockupProject'>
-                    <h2>Projet: </h2>
-                    <ul>
-                        <li>Rédaction de spécifications techniques</li>
-                        <li>Tableau de veille technologique</li>
-                        <li>Kanban et outils de plannifications selon la méthode Agile/Scrum</li>
-                    </ul>
-                </div>
+            </section>
+            <section className='mockupProject'>
+                <h2>Projet: </h2>
+                <ul>
+                    <li>Rédaction de spécifications techniques</li>
+                    <li>Tableau de veille technologique</li>
+                    <li>Kanban et outils de plannifications selon la méthode Agile/Scrum</li>
+                </ul>
             </section>
             <div className='buttonMaker'>
                 <Button text="Rapport des spécifications techniques" href={`${import.meta.env.BASE_URL}specifications-techniques.html`} target="_blank" rel="noopener noreferrer" />

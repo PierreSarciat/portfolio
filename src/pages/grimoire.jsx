@@ -28,15 +28,15 @@ const Grimoire = () => {
                     <img src="/portfolio/mockup/grimoire/grimoire4.png" alt="Mockup grimoire" />
                     <img src="/portfolio/mockup/grimoire/grimoire5.png" alt="Mockup grimoire" />
                 </div>
-                <div className='mockupProject'>
-                    <h2>Projet: </h2>
-                    <ul>
-                        <li>Serveur Node et modèle de données</li>
-                        <li>Authentification et opérations CRUD</li>
-                        <li>Base de données MongoDB structurée</li>
-                    </ul>
-                </div>
 
+            </section>
+            <section className='mockupProject'>
+                <h2>Projet: </h2>
+                <ul>
+                    <li>Serveur Node et modèle de données</li>
+                    <li>Authentification et opérations CRUD</li>
+                    <li>Base de données MongoDB structurée</li>
+                </ul>
             </section>
             <div className='buttonGrimoire'>
                 <Button img={logoGitHub} alt="GitHub" href="https://github.com/PierreSarciat/mon-vieux-grimoire.git" target="_blank" rel="noopener noreferrer" />

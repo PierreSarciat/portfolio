@@ -23,15 +23,16 @@ const Booki = () => {
                     <img src="/portfolio/mockup/carducci/carducci2.png" alt="Mockup Carducci" />
                     <img src="/portfolio/mockup/carducci/carducci3.png" alt="Mockup Carducci" />
                 </div>
-                <div className='mockupProject'>
-                    <h2>Projet: </h2>
-                    <ul>
-                        <li>Rapport d' audit SEO</li>
-                        <li>Accessibilité</li>
-                        <li>Cahier de recette avec tests</li>
-                    </ul>
-                </div>
 
+
+            </section>
+            <section className='mockupProject'>
+                <h2>Projet: </h2>
+                <ul>
+                    <li>Rapport d' audit SEO</li>
+                    <li>Accessibilité</li>
+                    <li>Cahier de recette avec tests</li>
+                </ul>
             </section>
             <div className='buttonCarducci'>
                 <Button img={logoGitHub} alt="GitHub" href="https://github.com/PierreSarciat/ninacarducci.git" target="_blank" rel="noopener noreferrer" />

@@ -25,9 +25,10 @@ const Bluel = () => {
 
             <section className='mockupContent'>
                 <div className='mockup'>
-                    <img src="/portfolio/mockup/bluel/bluel1.png" alt="Mockup Bluel" />
+                    <img src="/portfolio/mockup/bluel/bluel6.png" alt="Mockup Bluel" />
                     <img src="/portfolio/mockup/bluel/bluel2.png" alt="Mockup Bluel" />
                     <img src="/portfolio/mockup/bluel/bluel3.png" alt="Mockup Bluel" />
+                    <img src="/portfolio/mockup/bluel/bluel1.png" alt="Mockup Bluel" />
                     <img src="/portfolio/mockup/bluel/bluel4.png" alt="Mockup Bluel" />
                     <img src="/portfolio/mockup/bluel/bluel5.png" alt="Mockup Bluel" />
                 </div>
