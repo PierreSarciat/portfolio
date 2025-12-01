@@ -34,23 +34,23 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <NavLink to="/#presentation">
-                Présentation
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/#competences">
-                Compétences
-              </NavLink>
-            </li>
-            <li>
               <NavLink to="/#portfolio">
                 Portfolio
               </NavLink>
             </li>
             <li>
-              <NavLink to="/#aboutMe">
+              <NavLink to="/#apropos">
                 A propos
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/#competence">
+                Compétences
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/#projet">
+                Projet
               </NavLink>
             </li>
             <li>
